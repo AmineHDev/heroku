@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Home{{parent()}}
+{% endblock %}
+
+{% block body %}
+	{% include 'partials/carousel.html.twig' %}
+	<div class='container' style='margin-top:150px'>
+
+		<div class='card'>
+			<img width='300' height='400' src="assets/img/anita-austvika-_ZXK5y-2zmY-unsplash.jpg">
+			<h4>{{ 'flower'|upper }}</h4>
+			<button>Voir ce produit</button>
+		</div>
+
+		<div class='card'>
+			<img width='300' height='400' src="assets/img/vishwajeet-nishad-GzyCZpEp3j0-unsplash.jpg">
+			<h4>{{ 'cupcake'|upper }}</h4>
+			<button>Voir ce produit</button>
+		</div>
+
+		<div class='card'>
+			<img width='300' height='400' src="assets/img/tonya-wright-2WnmZjqXI2o-unsplash.jpg">
+			<h4>{{ 'tea'|upper }}</h4>
+			<button>Voir ce produit</button>
+		</div>
+
+		<div class='card'>
+			<img width='300' height='400' src="assets/img/marie-g-9Tgex3n9gGs-unsplash.jpg">
+			<h4>{{ 'juice'|upper }}</h4>
+			<button>Voir ce produit</button>
+		</div>
+
+		<div class='card'>
+			<img width='300' height='400' src="assets/img/brooke-lark-1Rm9GLHV0UA-unsplash.jpg">
+			<h4>{{ 'Fruits platter'|upper }}</h4>
+			<button>Voir ce produit</button>
+		</div>
+
+		<div class='card'>
+			<img width='300' height='400' src="assets/img/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg">
+			<h4>{{ 'strawberry cake'|upper }}</h4>
+			<button>Voir ce produit</button>
+		</div>
+
+	</div>
+{% endblock %}
